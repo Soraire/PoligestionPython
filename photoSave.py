@@ -3,10 +3,10 @@ import cv2
 import os 
 
 # Set the file path for the source image
-path = r'C:\Users\Administrator.SHAREPOINTSKY\Downloads\dora.jpg'
+path = r'C:\Users\devandroid\Downloads\asdas.jpg'
 
 # Set the directory for saving the image
-directory = r'C:\Users\Administrator.SHAREPOINTSKY\Desktop\Work'
+directory = r'C:\Users\devandroid\Desktop'
 
 # Load the image using OpenCV
 img = cv2.imread(path) 
