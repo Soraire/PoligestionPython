@@ -5,3 +5,22 @@ with open("imageToSave.png", "wb") as fh:
     print(base64.b64decode(img_data))
 with open("imageToSave.png", "wb") as fh:
     fh.write(base64.decodebytes(img_data))
+import base64
+from PIL import Image
+from io import BytesIO
+
+def decode_text_to_image(text):
+    # Decode the base64-encoded text
+    image_data = base64.b64decode(text)
+
+    # Create a PIL Image object from the decoded image data
+    image = Image.open(BytesIO(image_data))
+    
+    return image
+
+# Example usage
+encoded_text = "SGVsbG8gV29ybGQh"  # Replace with your base64-encoded text
+decoded_image = decode_text_to_image(encoded_text)
+
+# Save the decoded image to a file
+decoded_image.save("decoded_image.png")
