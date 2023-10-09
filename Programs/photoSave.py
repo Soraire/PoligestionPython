@@ -2,7 +2,7 @@
 import cv2 
 import os 
 from decode.py import dni
-from face_recognition.recognition-app.detector.py import result
+from face_recognition.recognition-app.detector.py import name
 
 # Set the file path for the source image
 path = r'C:\Users\devandroid\Downloads\asdas.jpg'
