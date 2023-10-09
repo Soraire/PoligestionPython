@@ -11,6 +11,8 @@ directory = r'C:\Users\devandroid\Desktop'
 # Load the image using OpenCV
 img = cv2.imread(path) 
 
+# Make a folder to save the image in
+
 # Change the working directory to the specified directory for saving the image
 os.chdir(directory) 
 
