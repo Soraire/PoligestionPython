@@ -1,4 +1,5 @@
-import .
+import ./Programs/decode.py
+import ./Programs/photoSave.py
 from ./Programs/face_recognition/recognition-app/detector.py import recognize_faces
 recognize_faces(
     image_location: str,
