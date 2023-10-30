@@ -8,6 +8,7 @@ dni = recognize_faces(
     Path("Programs/face_recognition/recognition-app/output/encodings.pkl"),
 )
 if dni = "Unknown":
-    return "New"
+    return: "New"
 else:
     saving(dni)
+    return: "Done"
