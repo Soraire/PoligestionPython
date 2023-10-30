@@ -1,6 +1,7 @@
 import ./Programs/decode.py
 import ./Programs/photoSave.py
 from ./Programs/face_recognition/recognition-app/detector.py import recognize_faces
+decode.py.run()
 recognize_faces(
     image_location: str,
     model: str = "hog",
