@@ -1,7 +1,7 @@
 # Import the necessary libraries
 import cv2 
 import os 
-def Saving(dni):
+def saving(dni):
     # Set the file path for the source image
     path = r'C:\Users\devandroid\Downloads\asdas.jpg'
 
