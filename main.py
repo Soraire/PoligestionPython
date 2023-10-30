@@ -1,5 +1,5 @@
 import './Programs/decode.py'
-from './Programs/photoSave.py' import Saving
+from './Programs/photoSave.py' import saving
 from './Programs/face_recognition/recognition-app/detector.py' import recognize_faces
 json=decode.py.run()
 dni = recognize_faces(
@@ -7,4 +7,4 @@ dni = recognize_faces(
      "hog",
     Path("Programs/face_recognition/recognition-app/output/encodings.pkl"),
 )
-Saving(dni)
+saving(dni)
