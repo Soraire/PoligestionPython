@@ -7,3 +7,4 @@ dni = recognize_faces(
      "hog",
     Path("Programs/face_recognition/recognition-app/output/encodings.pkl"),
 )
+Saving(dni)
