@@ -95,7 +95,7 @@ def recognize_faces(
         _display_face(draw, bounding_box, name)
 
     del draw
-    pillow_image.show()
+    return name
 
 
 def _recognize_face(unknown_encoding, loaded_encodings):
